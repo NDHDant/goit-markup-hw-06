@@ -564,11 +564,45 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="madal-btn" data-modal-close>
-          <svg class="modal-btn-icon" width="11" height="11">
-            <use href="./images/icons.svg#vector"></use>
-          </svg>
-        </button>
+        <div>
+          <button class="modal-btn" data-modal-close>
+            <svg class="modal-btn-icon" width="11" height="11">
+              <use href="./images/icons.svg#vector"></use>
+            </svg>
+          </button>
+        </div>
+        <div>
+          <section class="modal-title">Залиште свої дані, ми вам передзвонимо</section>
+          <form class="modal-group">
+            <label class="modal-form">
+              <span class="modal-form-name">Ім'я</span>
+              <input class="modal-form-input" type="text" name="user-name" />
+            </label>
+            <label class="modal-form">
+              <span class="modal-form-name">Телефон</span>
+              <input class="modal-form-input" type="tel" name="user-tel" />
+            </label>
+            <label class="modal-form">
+              <span class="modal-form-name">Пошта</span>
+              <input class="modal-form-input" type="email" name="user-email" />
+            </label>
+            <label class="modal-form">
+              <span class="modal-form-name">Коментар</span>
+              <textarea
+                class="modal-form-area"
+                name="user-coments"
+                rows="6"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+            <input type="checkbox" name="user-license" />
+            <span class="modal-lic-name"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="license-link" href="">Умови договору</a></span
+            >
+            <input type="submit" />
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>

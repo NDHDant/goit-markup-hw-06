@@ -709,8 +709,70 @@ overflow: hidden;
 	opacity: 0;
 	transform: translate(-50%, -50%) scale(0.2);
 
+	
 }
-.madal-btn {
+
+.modal {
+	padding: 15px;
+}
+
+.modal-title {
+	margin-bottom: 12px;
+
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	text-align: center;
+	letter-spacing: 0.03em;
+	
+	color: var(--brand-subtitle-color);
+}
+.modal-group {
+	margin-bottom: 12px;
+}
+
+
+.modal-form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 12px;
+}
+
+.modal-form-name {
+	margin-bottom: 4px;
+	
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.01em;
+
+	color: var(--brand-p-color);
+}
+
+.modal-form-input {
+	padding: 12px 16px 12px 83px;
+
+}
+
+.modal-form-area {
+	padding: 12px 16px;
+
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.01em;
+}
+
+.modal-lic-name {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+
+	color: var(--brand-p-color);
+}
+
+.license-link{
+	color: var(--brand-onfocus-color);
+}
+.modal-btn {
 	position: absolute;
 	top: 8px;
 	right: 8px;
