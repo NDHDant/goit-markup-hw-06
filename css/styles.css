@@ -784,6 +784,7 @@ overflow: hidden;
 }
 
 .modal-title {
+	display: block;
 	margin-bottom: 12px;
 
 	font-weight: 700;
