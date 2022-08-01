@@ -762,7 +762,6 @@ overflow: hidden;
 	left: 50%;
 
 	width: 528px;
-	height: 581px;
 	padding: 40px;
 
 	background-color: #FFFFFF;
@@ -779,9 +778,6 @@ overflow: hidden;
 	transform: translate(-50%, -50%) scale(0.2);
 }
 
-.modal {
-	padding: 40px;
-}
 
 .modal-title {
 	display: block;
